@@ -6,7 +6,7 @@ import { FaRegUser } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div>
-      <div class="navbar bg-base-100">
+      <div class="navbar bg-base-100 px-10">
         <div class="navbar-start ">
           <p className="normal-case text-xl pl-3 flex items-center gap-1">
             <IoMapOutline /> <span className="text-orange-400">E-</span>Shop
