@@ -9,8 +9,8 @@ const Cart = () => {
       <div className="space-y-7">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-4">
-            <div class="avatar">
-              <div class="w-14 rounded-full">
+            <div className="avatar">
+              <div className="w-14 rounded-full">
                 <img src={summerVibes} alt="" />
               </div>
             </div>
@@ -23,8 +23,8 @@ const Cart = () => {
         </div>
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-4">
-            <div class="avatar">
-              <div class="w-14 rounded-full">
+            <div className="avatar">
+              <div className="w-14 rounded-full">
                 <img src={slimfit} alt="" />
               </div>
             </div>

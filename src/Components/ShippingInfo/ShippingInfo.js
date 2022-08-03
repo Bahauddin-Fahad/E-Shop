@@ -1,13 +1,14 @@
 import React from "react";
+import { useAuthState } from "react-firebase-hooks/auth";
+import auth from "../../firebase.init";
 import CustomerLogin from "../CustomerLogin/CustomerLogin";
 
 const ShippingInfo = () => {
+  const [user] = useAuthState(auth);
   return (
     <div className="col-span-5 ">
-      <CustomerLogin />
-      <h2 className="text-start font-medium mt-10 mb-5">
-        Shipping Information
-      </h2>
+      {!user && <CustomerLogin />}
+      <h2 className="text-start font-medium  mb-5">Shipping Information</h2>
       <div className="grid grid-cols-2 gap-x-6 gap-y-5">
         <input
           type="text"

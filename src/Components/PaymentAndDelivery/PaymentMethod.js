@@ -20,7 +20,7 @@ const PaymentMethod = () => {
           <img src={masterCardLogo} alt="" className="w-16" />
         </button>
         <button className="border-2 border-orange-200 rounded-[22px] flex justify-center items-center h-12">
-          <img src={maestroLogo} alt="" className="w-9" />
+          <img src={maestroLogo} alt="" className="w-8" />
         </button>
         <button className="border-2 border-gray-200 rounded-[22px] flex justify-center items-center h-12 opacity-50">
           <img src={discoverLogo} alt="" className="w-16" />
