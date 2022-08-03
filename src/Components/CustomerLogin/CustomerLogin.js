@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 const CustomerLogin = () => {
   const navigate = useNavigate();
   return (
-    <div className="flex flex-col lg:flex-row gap-3 font-medium mb-10">
+    <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row gap-3 font-medium mb-10">
       <button
         onClick={() => navigate("/login")}
         className="bg-primary text-white text-sm w-[120px] h-12 rounded-full uppercase"
