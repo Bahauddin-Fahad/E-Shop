@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="navbar px-6 my-3">
+      <div className="navbar px-6 my-2">
         <div className="navbar-start ">
           <button
             onClick={() => navigate("/")}
@@ -26,13 +26,13 @@ const Navbar = () => {
           </button>
         </div>
         <div className="lg:flex gap-10 hidden">
-          <Link to="" className="btn btn-ghost normal-case text-md">
+          <Link to="" className="btn btn-ghost normal-case text-base">
             Men
           </Link>
-          <Link to="" className="btn btn-ghost normal-case text-md">
+          <Link to="" className="btn btn-ghost normal-case text-base">
             Women
           </Link>
-          <Link to="" className="btn btn-ghost normal-case text-md">
+          <Link to="" className="btn btn-ghost normal-case text-base">
             Kids
           </Link>
         </div>
