@@ -1,11 +1,12 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { GrSearch } from "react-icons/gr";
-import { IoCartOutline, IoMapOutline } from "react-icons/io5";
+import { IoCartOutline } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa";
 import { useAuthState } from "react-firebase-hooks/auth";
 import auth from "../firebase.init";
 import { signOut } from "firebase/auth";
+import eShopLogo from "../Images/logos/eshop/eshop.png";
 const Navbar = () => {
   const navigate = useNavigate();
   const [user] = useAuthState(auth);
@@ -16,22 +17,22 @@ const Navbar = () => {
         <div className="navbar-start ">
           <button
             onClick={() => navigate("/")}
-            className="flex items-center gap-3"
+            className="flex items-center gap-4"
           >
-            <IoMapOutline className="w-8 h-8" />
+            <img src={eShopLogo} alt="" className="w-12 h-11" />
             <p className="normal-case text-xl font-medium">
               <span className="text-orange-400">E-</span>Shop
             </p>
           </button>
         </div>
         <div className="lg:flex gap-10 hidden">
-          <Link to="" className="btn btn-ghost normal-case text-lg">
+          <Link to="" className="btn btn-ghost normal-case text-md">
             Men
           </Link>
-          <Link to="" className="btn btn-ghost normal-case text-lg">
+          <Link to="" className="btn btn-ghost normal-case text-md">
             Women
           </Link>
-          <Link to="" className="btn btn-ghost normal-case text-lg">
+          <Link to="" className="btn btn-ghost normal-case text-md">
             Kids
           </Link>
         </div>
