@@ -7,9 +7,9 @@ import discoverLogo from "../../Images/logos/paymentMethods/discover.png";
 import idealLogo from "../../Images/logos/paymentMethods/ideal.png";
 const PaymentMethod = () => {
   return (
-    <div>
+    <div className="w-full max-w-md mx-auto">
       <h2 className="text-start font-medium mb-6">Payment Method</h2>
-      <div className="grid grid-cols-3 gap-2">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-2">
         <button className="border-2 border-gray-200 rounded-[22px] flex justify-center items-center h-12 opacity-50">
           <img src={payPalLogo} alt="" className="w-16" />
         </button>

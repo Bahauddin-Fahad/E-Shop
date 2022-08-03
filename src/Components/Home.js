@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="px-7 mb-10">
       <ShippingHeader />
-      <div className="grid grid-cols-12 gap-16 py-12">
+      <div className="grid grid-cols-12 lg:grid-cols-12 gap-16 mt-12">
         <ShippingInfo />
         <PaymentAndDelivery />
         <Cart />

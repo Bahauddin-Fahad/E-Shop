@@ -5,8 +5,8 @@ import dhlLogo from "../../Images/logos/delivaryMethods/dhl.png";
 import fedExLogo from "../../Images/logos/delivaryMethods/fedEx.png";
 const DeliveryMethod = () => {
   return (
-    <div className="font-medium">
-      <h2 className="text-start  mb-6">Delivery Method</h2>
+    <div className="font-medium w-full max-w-md mx-auto">
+      <h2 className="text-start mb-6">Delivery Method</h2>
       <div className="grid grid-cols-2 gap-2">
         <button className="border-2 border-gray-200 rounded-[23px] flex justify-evenly items-center h-14">
           <img src={inpostLogo} alt="" className="w-12" />

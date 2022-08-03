@@ -125,7 +125,7 @@ const Login = () => {
             </div>
           </form>
           <p className="text-sm text-center">
-            New to Portal?
+            New to E-Shop?
             <Link className="text-primary ml-2" to="/signup">
               Create New Account
             </Link>

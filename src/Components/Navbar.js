@@ -24,7 +24,7 @@ const Navbar = () => {
             </p>
           </button>
         </div>
-        <div className="flex gap-10">
+        <div className="lg:flex gap-10 hidden">
           <Link to="" className="btn btn-ghost normal-case text-lg">
             Men
           </Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
             Kids
           </Link>
         </div>
-        <div className="navbar-end ">
+        <div className="navbar-end">
           {user && (
             <button
               className="font-semibold text-primary"

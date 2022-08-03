@@ -4,7 +4,7 @@ import slimfit from "../../Images/models/slimFit.jpg";
 import { MdOutlineLocalShipping } from "react-icons/md";
 const Cart = () => {
   return (
-    <div className="col-span-3 ">
+    <div className="col-span-full lg:col-span-3 w-full max-w-md mx-auto">
       <h2 className="text-start font-medium mb-6">Your Cart</h2>
       <div className="space-y-7">
         <div className="flex justify-between items-center">

@@ -4,7 +4,7 @@ import PaymentMethod from "./PaymentMethod";
 
 const PaymentAndDelivery = () => {
   return (
-    <div className="col-span-4 space-y-10">
+    <div className="col-span-full lg:col-span-4 space-y-10">
       <PaymentMethod />
       <DeliveryMethod />
     </div>
